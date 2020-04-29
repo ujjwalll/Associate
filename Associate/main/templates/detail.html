@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+{% load static %}
+
+
+
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Profile | Associate</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/iofrm_files/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/iofrm_files/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/iofrm_files/iofrm-style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/iofrm_files/iofrm-theme23.css' %}">
+</head>
+<body data-gr-c-s-loaded="true">
+    <div class="form-body on-top-mobile">
+        <div class="website-logo">
+            <a href="">
+                <div class="logo">
+                    <img class="logo-size" src="{% static '/iofrm_files/logo-light.svg' %}" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder simple-info">
+                    <div><img src="{% static '/iofrm_files/graphic6.svg' %}" alt=""></div>
+                    <div><h3>Dial UP! Create you profile</h3></div>
+                    <div><p>Fill the form, tell us about yourself <br>and be a part of amazin' Community</p></div>
+                </div>
+            </div>
+            <form class="form-control" name="text-form" action="#" method="post" enctype="multipart/form-data">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <form>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="FirstNAME" placeholder="First name">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="LastNAME"  placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Email"  placeholder="E-mail Address">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Phone"  placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="country"  placeholder="Country">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Linkedin"  placeholder="Linkedin link">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Telegram"  placeholder="Telegram Handle">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="Github" placeholder="Github ID">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="roll" placeholder="Roll Number">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="batch"  placeholder="Batch">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="branch"  placeholder="Branch">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="inter1"  placeholder="Interest - 1">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="inter2"  placeholder="Interest - 2">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="inter3"  placeholder="Interest - 3">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="form-control" name="about"  placeholder="Tell us about yourself.."></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="document">
+                                        <label class="custom-file-label" for="validatedCustomFile">CV (Resume)</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="validatedCustomFile" name="IMAGE">
+                                        <label class="custom-file-label" for="validatedCustomFile">Profile Pic</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row top-padding">
+                                <div class="col-12 col-sm-6">
+                                    <input type="checkbox" id="chk1" required=""><label for="chk1">I agree on <a href="">T &amp; C</a> of Associate Inc.</label>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-button text-right">
+                                        <button id="submit" type="submit" class="ibtn less-padding">Lets Roll IN!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="{% static '/iofrm_files/jquery.min.js' %}"></script>
+<script src="{% static '/iofrm_files/popper.min.js' %}"></script>
+<script src="{% static '/iofrm_files/bootstrap.min.js' %}"></script>
+<script src="{% static '/iofrm_files/main.js' %}"></script>
+
+</body></html>
