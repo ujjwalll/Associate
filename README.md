@@ -6,3 +6,20 @@ This Project aims to provide to connect campus students, Clubs, Societies and al
 ## Detailing and Sketching.
 ![SCHEMA](https://github.com/ujjwalll/associate/blob/master/schema.png)
 
+## Stake Holders
+![SCHEMA](https://github.com/ujjwalll/associate/blob/master/stakeholders.png)
+
+## Technology Used
+- Git
+- Python3
+- Django
+- Latex
+- HTML
+- SASS
+- CSS
+- Sklearn
+- SQL
+- Lucid Chart
+- JS
+- JQuery
+- 
