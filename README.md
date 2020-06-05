@@ -4,4 +4,5 @@ This project is done under the guidance of Dr. Mukesh Mohania and Dr. Shad Akhta
 This Project aims to provide to connect campus students, Clubs, Societies and all the services like Cmapus services, hostel services etc.
 
 ## Detailing and Sketching.
+![SCHEMA](https://github.com/ujjwalll/associate/blob/master/schema.png)
 
