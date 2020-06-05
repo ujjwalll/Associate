@@ -22,4 +22,3 @@ This Project aims to provide to connect campus students, Clubs, Societies and al
 - Lucid Chart
 - JS
 - JQuery
-- 
